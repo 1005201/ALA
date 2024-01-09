@@ -1,0 +1,165 @@
+/*page backend 235 tot 294*/
+body {
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+header {
+    width: 100%;
+    background-color: #1c1c1c;
+}
+.image1 {
+    padding: 10px 0;
+}  
+.flip-box {
+    background-color: transparent;
+    width: 400px;
+    height: 225px;
+    perspective: 1000px;
+}
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+}
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-box-front {
+    color: black;
+    
+}
+.flip-box-back {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    transform: rotateX(180deg);
+}
+p {
+    font-size: small;
+}
+
+form {
+    /*table-dark table-striped*/
+    border: 1px solid black;
+    width: 99%;
+    padding: 5px;
+    
+}
+.form1 {
+    text-align: center;
+    width: 99%;
+}
+.form-group {
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+label {
+    padding: 5px;
+}
+.form-label {
+    padding: 12px 12px 12px 0;
+    width: 200px;
+    text-align: end;
+}
+.form-input {
+    width: 200px;
+    margin-top: 6px;
+    text-align: start;
+}
+button {
+    min-width: 120px;
+    height: 25px;
+    flex-direction: row;
+}
+img {
+    width: 300px;
+}
+video {
+    width: 700px;
+    height: 400px;
+}
+.youtube { 
+    text-align: left;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+}
+.youtube2 { 
+    padding: 10px;
+    margin: 0 50px;
+    text-decoration: left;
+    display: flex;
+    flex-direction: row;
+    
+}
+button {
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+#film {
+    min-width: 99%;
+    height: 79.9%;
+    margin: 10px;
+}
+nav {
+    color: white;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul {
+    margin: 0 0 0 0;
+    padding-left: 0;
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+    float: right;
+    border-radius: 5px;
+}
+nav ul li {
+    width: 50%;
+    height: 50px;
+    margin: 0 10px;
+    background-color: red;
+}
+nav ul li a {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: large;
+    opacity: 5;
+    filter: alpha(opacity=50);    
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    color: blue;
+    letter-spacing: 5px;
+}
