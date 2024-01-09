@@ -17,6 +17,7 @@ Netfish is een film website die gecombiereerd is met Netflix en Youtube.
 
 # Next Logistics
 Next Logistics is een urenregistratie systeem. Dit heb ik samen met een klasgenoot gemaakt. Het is nog niet af omdat we aan een deadline moesten houden.
+Dit is de github die gebruikt is om de appilicatie van opdracht aan docent te laten zien: https://github.com/Renso9000/Next-Logistics
 
 # Sopranos
 Sopranos is een pizzaria die een website wil hebben om zijn pizza's online ook te kunnen verkopen. De eerst website die ik met php heb gemaakt.
@@ -26,3 +27,4 @@ Xtreem Travel is een html website voor reizigers die active vakantie wil beleven
 
 # Megasoft
 Megasoft is een appilicatie voor het afdukken van labels dat via een pdf wordt gedaan.
+Dit is de github die gebruikt is om de appilicatie van opdracht aan docent te laten zien: https://github.com/Yu1944/ala_megasoft
