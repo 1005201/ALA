@@ -1,0 +1,316 @@
+* {box-sizing: border-box}
+
+body {
+    height: 100%;
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #677256;
+    width: 1200px;
+    height: 150px;
+}
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* images */
+img {
+    width: 100px;
+}
+.image1 {
+    margin: 20px 10px;
+}
+
+/* navigation */
+nav {
+    color: black;
+    width: 100%;
+    padding: 4%;
+    flex: 1;
+}
+nav ul {
+    margin: 0 0 0 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+}
+nav ul li {
+    width: 12%;
+    height: 50px;
+}
+nav ul li a {
+    text-align: center;
+    position: relative;
+    color: #fff;
+    top: 30%;
+    font-family: "Inter",sans-serif !important;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+    opacity: 5;
+    filter: alpha(opacity=50);    
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    color: firebrick;
+    letter-spacing: 5px;
+}
+
+.button-contact {
+    font-size: 14px;
+    white-space: nowrap;
+    background-color: #1b1c20;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: -10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background 400ms ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Inter",sans-serif !important;
+}
+
+main { 
+    background-color: whitesmoke;
+    max-width: 1200px;
+    min-height: 800px;
+    padding: 5px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+address {
+    margin: 20px 30px;
+}
+
+/* text */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    background-color: #677256;
+}
+h2 {
+    font-size: 2em;
+    margin: 0 0;
+}
+h3 {
+    margin: 0 0;
+    padding: 20px 410px 0;
+    text-align: center;
+}
+h4 {
+    margin: 0 0;
+    text-align: center;
+}
+h5 {
+    font-size: larger;
+    margin: 2px 0;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+span{
+    display: block;
+    font: 1.2rem 'Fira Sans', sans-serif;
+}
+.input-group {
+    padding: 15px;
+}
+
+/*menukaart*/
+.bestellen {
+    background-color: #677256;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: white;
+    width: 100px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: unset;
+    display: inline-block;
+    font-size: 20px;
+    font-family: serif;
+    font-style: normal;
+    margin: 30px 10px;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.keuze {
+    margin: 5px 10px;
+}
+
+select {
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+    width: 307px;
+}
+
+aside {
+    position: sticky;
+    top: 0;
+    float: right;
+    margin: 25px 25px;
+    padding: 20px;
+    border: 1px solid #677256;
+    display: block;
+    height: 95%;
+    width: 250px;  
+}
+.winkelmandje {
+    background-color: white;
+}
+
+.rekening {
+    background-color: #677256;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: white;
+    width: 100px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: unset;
+    display: inline-block;
+    font-size: 20px;
+    font-family: serif;
+    font-style: normal;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+/*product*/
+.productnaam {
+    display: flex;
+    flex-direction: column;
+}
+.product {
+    max-width: 900px;
+    margin: 15px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+.productcolumn {
+
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.naamenprijs {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    padding: 10px 20px;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+/*.container {
+    outline: 1px solid black; !* Outlined the container *!
+    width: 500px;
+    margin: 10vh auto; !* To center on the screen *!
+    position: relative;
+}*/
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+}
+
+/* Carousel */
+.carousel-container {
+    width: 900px;
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    width: 900px;
+    position: relative;
+    overflow: auto;
+    outline: 1px solid black;
+    display: flex;
+    transition: transform 0.3s ease;
+    justify-content: center;
+}
+
+#carousel img {
+    opacity: 0;
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    object-fit: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#carousel img.active {
+    opacity: 1;
+}
+
+.carousel-slide {
+    flex: none;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+}
