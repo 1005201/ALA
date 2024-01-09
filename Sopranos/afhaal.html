@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Soprano's Pizza</title>
+</head>
+<body>
+    <header>
+        <div class="image4">
+            <div class="image1">
+                <img src="image/logo soprano.png" style="width: 100px;">
+            </div>
+            <div class="image5">    
+                <img src="image/logo tekst soprano.2.png" style="width: 600px;">
+            </div>    
+            <div class="winkelwagen">
+                <a href="winkelwagen.html"><img src="image/winkelwagen (2).png" style="width: 125px; height: 100px;"></a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.php">Homepage</a></li>
+            <li><a href="menukaart.php">Menukaart</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="over-ons.html">Over ons</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Voor afhaal graag het volgende invullen:</h3>
+        <form action="menukaart.php" class="afhaal" method="post">
+            <section class="naam">
+                <label for="naam">Naam</label>            
+                <input type="text" name="naam" id="naam">
+            </section>
+            <section class="telefoonnummer">
+                <label for="telefoonnummer">Telefoonnummer</label>
+                <input type="text" name="telefoonnummer" id="telefoonnummer">
+            </section>
+            <section class="datum">
+                <label for="meeting-time">Datum en tijd kiezen</label>
+                <input type="datetime-local" id="meeting-time"
+                    name="meeting-time" value=" "
+                    min="2022-04-01T00:00" max="2022-12-31T00:00">  
+            </section>
+            <section class="extra-info">
+                <label for="extra">Bericht of opmerking</label>
+                <textarea id="extra" name="extra" rows="4" cols="30"></textarea>
+            </section>
+            <section class="verzenden">
+                <input type="submit" value="Naar menukaart">
+            </section>
+        </form>
+    </main>
+    <footer>
+        <address>
+            <h5>Pizzaria</h5>
+            <h4 style="text-align: left;">Soprano's Pizza<br>
+                Ziendeweg 4<br>
+                2471 PZ Zwammerdam</h4>
+        </address>
+        <address>
+            <h5>Openingstijden</h5>
+            <h4 style="text-align: left;">ma tot vr van 8:00 tot 17:00<br>
+                za van 9:00 tot 16:00<br>
+                zo gesloten</h4>
+        </address>
+    </footer>
+</body>
+</html>
