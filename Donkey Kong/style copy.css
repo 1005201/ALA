@@ -1,0 +1,15 @@
+body {
+    background-image: url("image/Donkey-Kong\ level.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 100% 100%;
+  }
+
+div {
+    position: absolute;
+    top: 50px;
+    border: 3px;
+    padding-left: 5%;
+    padding-top: 80%;
+    
+}
