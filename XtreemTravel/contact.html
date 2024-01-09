@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>XtreemTravel</title>
+</head>
+<body>
+    <main>
+        <img src="image/XtreemTravel logo.png">
+        <h1>Contact en service</h1>
+    </main>
+    <br>
+    <article>
+        <div>
+            <h3>Kantoor</h3>
+            <h4>Plein 1<br>
+                2471 AN Zwammerdam</h4>
+        </div>
+        <div>
+            <h3>Openingstijden</h3>
+            <h4>ma tot vr van 8:00 tot 17:00<br>
+                za van 9:00 tot 16:00<br>
+                zo gesloten</h4>
+        </div>
+    </article>
+<br>
+    
+    <h2>Klantenservice</h2>
+    
+    <p>Voor u vragen kunt u hieronder een formulier invullen:</p>
+    
+    <form action="submission.html" method="post">
+        <section class="naam">
+            <label for="naam">Naam</label><br>            
+            <input type="text" name="naam" id="naam">
+        </section>
+        <br>
+        <section class="e-mail">
+            <label for="e-mail">E-mailadres</label><br>            
+            <input type="text" name="e-mail" id="e-mail">
+        </section>
+        <br>
+        <section class="telefoonnummer">
+            <label for="telefoonnummer">Telefoonnummer</label><br>
+            <input type="text" name="telefoonnummer" id="telefoonnummer">
+        </section>
+        <br>
+        <section class="opties">
+            <span>Ik heb een vraag over</span><br>
+            <select name="opties" id="opties">
+                <option selected="selected" value=""></option>
+                <option value="Bestaande boeking">Bestaande boeking</option>
+                <option value="Nieuwe boeking">Nieuwe boeking</option>
+                <option value="Voucher">Voucher</option>
+                <option value="Garantie">Garantie</option>
+                <option value="Overig">Overig</option>
+            </select>
+        </section>
+        <br>
+        <section class="boekingsnummer">
+            <label for="boekingsnummer">Boekingsnummer</label><br>
+            <input type="text" name="boekingsnummer" id="boekingsnummer">
+        </section>
+        <br>
+        <section class="extra-info">
+            <label for="extra">Bericht of opmerking</label><br>
+            <textarea id="extra" name="extra" rows="10" cols="40"></textarea>
+        </section>
+        <br>
+        <section class="verzenden">
+            <input type="submit" value="Verzenden">
+        </section>
+    </form>
+   
+    
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home pagina</a></li>
+                <li><a href="windsurfing.html">Windsurfing</a></li>
+                <li><a href="mountainclimbing.html">Mountainclimbing</a></li>
+                <li><a href="snorkelen.html">Snorkelen</a></li>
+                <li><a href="last-minutes.html">Last-minutes</a></li>
+                <li><a href="about-us.html">About us</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+
+

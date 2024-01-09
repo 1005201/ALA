@@ -1,0 +1,87 @@
+body {
+    background-color: lightgreen;
+    height: 650px;
+    
+} 
+
+main {
+    background-color: goldenrod;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    
+}
+img {
+    width: 150px;
+
+}
+h1 {
+    text-align: center;
+    margin-left: 27%;
+    margin-top: 30px;
+}
+
+div {
+    width: 950px;
+    padding: 10px;
+    margin-left: 17%;
+}
+h2 {
+    border: 2px solid black;
+    border-radius: 35%;
+    color: blue;
+    background-color: lightblue;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/*footer*/
+footer {
+    padding-top: 300px;
+}
+nav {
+    width: 100%;
+    flex: 1;
+    
+}
+nav ul {
+    
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+    
+}
+nav ul li {
+    width: 16.66%;
+    height: 50px;
+    
+    background: linear-gradient(#9FB3B5, #E3E9EA, #7C9799);  
+}
+nav ul li a {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: large;
+    opacity: 5;
+    filter: alpha(opacity=50);    
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    
+    color: firebrick;
+    letter-spacing: 5px;
+}

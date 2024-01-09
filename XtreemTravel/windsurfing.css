@@ -1,0 +1,97 @@
+body {
+    background-color: lightgreen;
+} 
+
+main {
+    background-color: goldenrod;
+    border-radius: 10%;    
+    background-image: url(image/windsurfing\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    background-color:rgba(255, 160, 122, 0.8);
+    text-align: center;
+}
+
+div {
+    position: relative;
+    margin-left: 375px;
+}
+
+h3 { 
+    align-content: center;
+    width: 750px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    border: 1px solid gray;
+    border-radius: 50px;
+    width: 1300px;
+    height: 600px;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 75px;
+    
+}
+
+img {
+    width: 400px;
+    margin: 10px;
+    
+}
+
+
+
+/*footer*/
+
+nav {
+    width: 100%;
+    flex: 1;
+    
+}
+nav ul {
+    
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+    
+}
+nav ul li {
+    width: 16.66%;
+    height: 50px;
+    
+    background: linear-gradient(#9FB3B5, #E3E9EA, #7C9799);  
+}
+nav ul li a {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: large;
+    opacity: 5;
+    filter: alpha(opacity=50);    
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    
+    color: firebrick;
+    letter-spacing: 5px;
+}
